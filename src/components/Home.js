@@ -16,14 +16,17 @@ const Home = () => {
           </Col>
         </Row>
         <Row className="links-space-top">
-          <Col className="link-size center-small-link" sm={4}>
+          <Col className="link-size center-small-link" sm={3}>
             <a  href="https://github.com/cfilipek" target="_blank" rel="noopener noreferrer" ><i class="fab fa-github"></i> Github</a>
           </Col>
-          <Col className="link-size center-link" sm={4}>
+          <Col className="link-size center-link" sm={3}>
             <a className="center-link" href="https://www.linkedin.com/in/cfilipek/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-linkedin"></i> LinkedIn</a>
           </Col>
-          <Col className="link-size right-align-link" sm={4}>
+          <Col className="link-size center-link" sm={3}>
             <a className="right-align-link" href="http://clairefilz.com/" target="_blank" rel="noopener noreferrer" ><i class="fas fa-palette"></i> Fine Art Website</a>
+          </Col>
+          <Col className="link-size right-align-link" sm={3}>
+            <a  href="https://medium.com/@iloveclair" target="_blank" rel="noopener noreferrer" ><i class="fab fa-medium"></i> Blog Posts</a>
           </Col>
         </Row>
         <Row className="home-top-image-row">
